@@ -1,0 +1,55 @@
+.chart-container {
+  width: 100%;
+  margin-left: 10% ;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  background: #c0c0c0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chart-selectors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding: 10px 0;
+}
+
+.chart-selectors label {
+  /* display: flex; */
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.chart-selectors input[type="file"],
+.chart-selectors select {
+  margin-top: 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  transition: border 0.2s;
+}
+
+.chart-selectors input[type="file"]:hover,
+.chart-selectors select:hover {
+  border-color: #999;
+}
+
+.chart-canvas {
+  border: 1px solid #e0e0e0;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #f0eef2;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.chart-canvas:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

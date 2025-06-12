@@ -1,0 +1,52 @@
+{
+  "groupMapping": {
+    "NO_GROUP": [
+      { "categoryId": "R0-%-Amarilla", "dataRowId": "NO_GROUP~**~R0-%-Amarilla" },
+      { "categoryId": "R0-%-Carretera", "dataRowId": "NO_GROUP~**~R0-%-Carretera" },
+      { "categoryId": "R0-%-Montana", "dataRowId": "NO_GROUP~**~R0-%-Montana" },
+      { "categoryId": "R0-%-Paseo", "dataRowId": "NO_GROUP~**~R0-%-Paseo" },
+      { "categoryId": "R0-%-Velo", "dataRowId": "NO_GROUP~**~R0-%-Velo" },
+      { "categoryId": "R0-%-VTT", "dataRowId": "NO_GROUP~**~R0-%-VTT" }
+    ],
+    "TOTAL_GROUP": [
+      { "dataRowId": "TOTAL_GROUP~**~R0-%-Amarilla", "categoryId": "R0-%-Amarilla" },
+      { "dataRowId": "TOTAL_GROUP~**~R0-%-Carretera", "categoryId": "R0-%-Carretera" },
+      { "dataRowId": "TOTAL_GROUP~**~R0-%-Montana", "categoryId": "R0-%-Montana" },
+      { "dataRowId": "TOTAL_GROUP~**~R0-%-Paseo", "categoryId": "R0-%-Paseo" },
+      { "dataRowId": "TOTAL_GROUP~**~R0-%-Velo", "categoryId": "R0-%-Velo" },
+      { "dataRowId": "TOTAL_GROUP~**~R0-%-VTT", "categoryId": "R0-%-VTT" }
+    ],
+    "AVERAGE_GROUP": [
+      { "dataRowId": "AVERAGE_GROUP~**~R0-%-Amarilla", "categoryId": "R0-%-Amarilla" },
+      { "dataRowId": "AVERAGE_GROUP~**~R0-%-Carretera", "categoryId": "R0-%-Carretera" },
+      { "dataRowId": "AVERAGE_GROUP~**~R0-%-Montana", "categoryId": "R0-%-Montana" },
+      { "dataRowId": "AVERAGE_GROUP~**~R0-%-Paseo", "categoryId": "R0-%-Paseo" },
+      { "dataRowId": "AVERAGE_GROUP~**~R0-%-Velo", "categoryId": "R0-%-Velo" },
+      { "dataRowId": "AVERAGE_GROUP~**~R0-%-VTT", "categoryId": "R0-%-VTT" }
+    ]
+  },
+  "dataRowMapping": {
+
+    "NO_GROUP~**~R0-%-Amarilla": { "AC": 14933013 },
+    "NO_GROUP~**~R0-%-Carretera": { "AC": 11988503 },
+    "NO_GROUP~**~R0-%-Montana": { "AC": 13276047 },
+    "NO_GROUP~**~R0-%-Paseo": { "AC": 28213704 },
+    "NO_GROUP~**~R0-%-Velo": { "AC": 15944067 },
+    "NO_GROUP~**~R0-%-VTT": { "AC": 17477314 },
+
+    "AVERAGE_GROUP~**~R0-%-Amarilla": { "AC": 10000000 },
+    "AVERAGE_GROUP~**~R0-%-Carretera": { "AC": 8000000 },
+    "AVERAGE_GROUP~**~R0-%-Montana": { "AC": 9000000 },
+    "AVERAGE_GROUP~**~R0-%-Paseo": { "AC": 20000000 },
+    "AVERAGE_GROUP~**~R0-%-Velo": { "AC": 11000000 },
+    "AVERAGE_GROUP~**~R0-%-VTT": { "AC": 12000000 },
+
+
+    "TOTAL_GROUP~**~R0-%-Amarilla": { "AC": 18000000 },
+    "TOTAL_GROUP~**~R0-%-Carretera": { "AC": 14000000 },
+    "TOTAL_GROUP~**~R0-%-Montana": { "AC": 16000000 },
+    "TOTAL_GROUP~**~R0-%-Paseo": { "AC": 34000000 },
+    "TOTAL_GROUP~**~R0-%-Velo": { "AC": 19000000 },
+    "TOTAL_GROUP~**~R0-%-VTT": { "AC": 21000000 }
+  }
+}
